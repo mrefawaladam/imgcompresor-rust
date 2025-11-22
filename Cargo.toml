@@ -1,0 +1,13 @@
+[package]
+name = "imgcompressor"
+version = "0.1.0"
+edition = "2024"
+ 
+[dependencies]
+clap = { version = "4.4.0", features = ["derive"] }
+rayon = "1.7"
+walkdir = "2.3"
+image = { version = "0.25", default-features = false, features = ["jpeg", "png", "tiff", "bmp", "webp"] }
+mozjpeg = "0.10.0"
+indicatif = "0.17"
+anyhow = "1.0"
