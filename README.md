@@ -24,7 +24,7 @@ A high-performance, production-ready image compression tool built with Rust. Com
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/mrefawaladam/imgcompresor-rust
 cd imgcompressor
 
 # Build the project
